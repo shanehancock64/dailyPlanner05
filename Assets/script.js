@@ -110,6 +110,3 @@ function saveData(){
   localStorage.setItem('saved', input.value);
   var storedValue = localStorage.getItem('saved');
 }
-$(document).ready(function(storedValue){
-  localStorage.getItem('saved')
-});
